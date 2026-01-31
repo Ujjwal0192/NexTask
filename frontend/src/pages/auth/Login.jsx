@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom"; // useNavigate instead of Navigate
 import AuthLayout from "../../components/layout/AuthLayout";
-import Input from "../../components/Inputs/Input";
+import Input from "../../components/inputs/Input";
 import { validateEmail } from "../../utils/helper";
 import axiosInstance from "../../utils/axiosinstance";
 import { API_PATHS } from "../../utils/apiPaths";

@@ -12,7 +12,7 @@ import {
   LuCheck,
 } from "react-icons/lu";
 
-// ⚠️ Adjust these paths if your charts live elsewhere
+
 import CustomPieChart from "../../components/charts/CustomPieChart";
 import CustomBarChart from "../../components/charts/CustomBarChart";
 
