@@ -19,7 +19,7 @@ const AuthLayout = ({ children }) => {
           <div>
             <div className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-medium backdrop-blur">
               <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-              Task Manager
+              NexTask
             </div>
 
             <h1 className="mt-6 text-3xl lg:text-4xl font-semibold leading-tight">
@@ -59,7 +59,7 @@ const AuthLayout = ({ children }) => {
           <div className="mb-6 flex items-center justify-between md:justify-start md:gap-3">
             <div className="rounded-xl border border-slate-200 bg-white px-3 py-2 shadow-sm">
               <span className="text-sm font-semibold text-slate-900">
-                Task Manager
+                NexTask
               </span>
             </div>
             <span className="md:hidden text-xs text-slate-500">
@@ -74,7 +74,7 @@ const AuthLayout = ({ children }) => {
 
           {/* Footer small text */}
           <p className="mt-6 text-xs text-center text-slate-400">
-            © {new Date().getFullYear()} Task Manager. All rights reserved.
+            © {new Date().getFullYear()} NexTask. All rights reserved.
           </p>
         </div>
       </div>
